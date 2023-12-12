@@ -200,7 +200,15 @@ footer .social {
     border: 2px dashed black;
 }
 
-footer .column {
+footer .links {
+    display: flex;
+    justify-content: flex-start;
+    flex-grow: 1;
+
+    border: 2px dashed black;
+}
+
+footer .links .column {
     flex-grow: 1;
 
     background-color: #20B2AA;
@@ -208,3 +216,39 @@ footer .column {
 }
 
 /* fine footer */
+
+hr {
+    border: 1px solid white;
+}
+
+/* cta */
+#cta {
+    padding-top: 30px;
+    background-color: #23272A;
+}
+
+#cta .container {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 22px;
+    padding-bottom: 22px;
+    background-color: #7FFFD4;
+}
+
+#cta .container #logo2 {
+    padding: 8px;
+
+    background-color: #FFB6C1;
+    border: 2px dashed black;
+}
+
+#cta .container #login2 {
+    padding: 8px;
+
+    background-color: #FFB6C1;
+    border: 2px dashed black;
+}
+
+
+/* fine cta */
