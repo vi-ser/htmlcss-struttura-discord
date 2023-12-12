@@ -176,3 +176,35 @@ nav {
     background-color: #228B22;
     border: 2px dashed black;
 }
+
+/* fine quinta sezione */
+
+/* footer */
+footer {
+    padding-top: 48px;
+    padding-bottom: 48px;
+
+    background-color: #23272A;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+}
+
+footer .social {
+    width: 356px;
+    height: 576px;
+
+    background-color: #F08080;
+    border: 2px dashed black;
+}
+
+footer .column {
+    flex-grow: 1;
+
+    background-color: #20B2AA;
+    border: 2px dashed white;
+}
+
+/* fine footer */
