@@ -84,18 +84,20 @@ nav {
 #first-section {
     /* height: 200px; */
     /* test */
-    display: flex;
-    justify-content: center;
+
     padding-top: 48px;
     padding-bottom: 48px;
 
-
     background-color: #00008B;
-
 }
 
-.container .call-to-action {
+#first-section .container {
+    display: flex;
+    justify-content: center;
+}
 
+
+.container .call-to-action {
     min-width: 900px;
     height: 394px;
 
@@ -111,7 +113,6 @@ nav {
 
     padding-top: 48px;
     padding-bottom: 48px;
-
 
     background-color: white;
 }
@@ -144,7 +145,6 @@ nav {
     padding-top: 48px;
     padding-bottom: 48px;
 
-
     background-color: #D3D3D3;
 }
 
@@ -155,3 +155,24 @@ nav {
 }
 
 /* fine terza sezione */
+
+/* quinta sezione */
+#fifth-section {
+    padding-top: 48px;
+    padding-bottom: 48px;
+
+    background-color: #D3D3D3;
+}
+
+#fifth-section .container {
+    display: flex;
+    justify-content: center;
+}
+
+.container .image {
+    flex-grow: 1;
+    height: 890px;
+
+    background-color: #228B22;
+    border: 2px dashed black;
+}
