@@ -32,12 +32,19 @@ nav {
     display: flex;
     justify-content: space-between;
 
-    background-color: #DAA520;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+    background-color: #ADD8E6;
+
 }
 
 .container #logo1 {
     padding: 12px;
+
+    background-color: #DAA520;
     border: 2px dashed black;
+
     min-width: 236px;
 }
 
@@ -50,6 +57,8 @@ nav {
     gap: 12px;
 
     padding: 12px;
+
+    background-color: #DAA520;
     border: 2px dashed black;
 
     list-style-type: none;
@@ -60,8 +69,20 @@ nav {
     flex-direction: row-reverse;
 
     padding: 12px;
+
+    background-color: #DAA520;
     border: 2px dashed black;
 
     min-width: 236px;
 
+}
+
+/* fine navbar */
+
+/* prima sezione */
+#first-section {
+    height: 200px;
+    /* test */
+
+    background-color: #00008B;
 }
