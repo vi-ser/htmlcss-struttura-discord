@@ -81,8 +81,55 @@ nav {
 
 /* prima sezione */
 #first-section {
-    height: 200px;
+    /* height: 200px; */
     /* test */
+    display: flex;
+    justify-content: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
+
 
     background-color: #00008B;
+
+}
+
+.container .call-to-action {
+
+    min-width: 900px;
+    height: 394px;
+
+    background-color: #EE82EE;
+    border: 2px dashed black;
+}
+
+/* fine prima sezione */
+
+/* seconda sezione */
+#second-section {
+
+    padding-top: 48px;
+    padding-bottom: 48px;
+
+
+    background-color: white;
+}
+
+#second-section .container {
+    height: 492px;
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph {
+    flex-grow: 1;
+    min-width: 50%;
+    background-color: #1E90FF;
+    border: 2px dashed black;
+}
+
+.picture {
+    width: 475px;
+
+    background-color: #FFC0CB;
+    border: 2px dashed black;
 }
