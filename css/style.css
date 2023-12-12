@@ -24,6 +24,7 @@ nav {
 
     display: flex;
     max-width: 1192px;
+    min-width: 600px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -104,8 +105,9 @@ nav {
 
 /* fine prima sezione */
 
-/* seconda sezione */
-#second-section {
+/* seconda e quarta sezione */
+#second-section,
+#fourth-section {
 
     padding-top: 48px;
     padding-bottom: 48px;
@@ -114,7 +116,8 @@ nav {
     background-color: white;
 }
 
-#second-section .container {
+#second-section .container,
+#fourth-section .container {
     height: 492px;
     display: flex;
     justify-content: center;
@@ -122,7 +125,6 @@ nav {
 
 .paragraph {
     flex-grow: 1;
-    min-width: 50%;
     background-color: #1E90FF;
     border: 2px dashed black;
 }
@@ -133,3 +135,23 @@ nav {
     background-color: #FFC0CB;
     border: 2px dashed black;
 }
+
+/* fine seconda e quarta sezione */
+
+/* terza sezione */
+#third-section {
+
+    padding-top: 48px;
+    padding-bottom: 48px;
+
+
+    background-color: #D3D3D3;
+}
+
+#third-section .container {
+    height: 492px;
+    display: flex;
+    justify-content: center;
+}
+
+/* fine terza sezione */
